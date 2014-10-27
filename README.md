@@ -21,4 +21,4 @@ $ tester <to_compress> <compressed> <uncompress_to>
 ````
 Running tester compiles then runs compress and uncompress then compares the two
 file using `cmp`, if there are no errors from cmp then the final output will
-be "Success".
+be "Success!!", which is good.

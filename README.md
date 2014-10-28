@@ -1,7 +1,7 @@
 **tester** for CSE 100
 =========
 
-This is my ever changing tester for CSE 105.
+This is my ever changing tester for CSE 100.
 
 Installation
 ---

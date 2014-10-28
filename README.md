@@ -14,7 +14,7 @@ Where _tester_ will be replaced with version name your using.
 
 Running tester for PA2
 ---
-- To run just type the tester name, file to compress, file to compress to,
+To run just type the tester name, file to compress, file to compress to,
 and the file to uncompress to.
 ````
 $ ./tester <to_compress> <compressed> <uncompress_to>

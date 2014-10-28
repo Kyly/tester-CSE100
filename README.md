@@ -9,7 +9,6 @@ Installation
 ````
 $ chmod +x tester
 ````
-Where _tester_ will be replaced with version name your using.
 - Bam! Your ready to test.
 
 Running tester for PA2

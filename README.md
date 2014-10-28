@@ -20,5 +20,5 @@ and the file to uncompress to.
 $ ./tester <to_compress> <compressed> <uncompress_to>
 ````
 Running tester compiles then runs compress and uncompress then compares the two
-file using `cmp`, if there are no errors from cmp then the final output will
+file using `cmp`. If there are no errors from `cmp` then the final output will
 be "Success!!", which is good.

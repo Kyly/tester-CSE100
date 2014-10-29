@@ -61,11 +61,13 @@ fi
 # Check file sizes
 UNCOMPRESSED=$(stat -c%s "$to_compress")
 COMPRESSED=$(stat -c%s "$compressed")
+RATIO=`echo "scale=2; $COMPRESSED/$UNCOMPRESSED" | bc`
 
 # Output compression size
 echo "Compression is done. "
 echo "Uncompressed size: $UNCOMPRESSED"
 echo "Compressed size: $COMPRESSED"
+echo "Compressed/Uncompressed: $RATIO"
 # Uncompress files
 echo "Uncompressing $compressed to $uncompress_to ..."
 ./uncompress $compressed $uncompress_to > /dev/null
